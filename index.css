@@ -1,0 +1,140 @@
+@font-face{
+    font-family: Hank; src: url("/assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+.body{
+    background:  hsl(0, 0%, 100%);
+    font-family: Hank;
+}
+
+.first-con{
+    display: flex;
+    justify-content: center;
+    height: 75vh;
+    width: 25%;
+    border-radius: 6%;
+    color: hsl(0, 0%, 100%);
+    background: hsl(252, 100%, 67%);
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 80%;
+    border: 2px solid;
+    flex-direction: column;
+    background-color:hsl(241, 81%, 54%) ;
+    border-color: hsl(241, 81%, 54%) ;
+    align-items: center;
+
+}
+.parent{
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.second-con{
+    display: flex;
+    height: 75vh;
+    width: 25%;
+    border-radius: 6%;
+    background: hsl(0, 0%, 100%);
+    flex-direction: column;
+    margin-top: 5%;
+    gap: 5%;
+    font-family: Hank;
+    padding-left: 40px;
+}
+
+.t.sum{
+    color: hsl(224, 30%, 27%);;
+
+}
+.react{
+    flex-direction: row ;
+    display: flex;
+    gap: 20%;
+}
+
+.text{
+    color: hsl(0, 100%, 67%);
+    flex-direction: row;
+    gap: 2%;
+}
+
+.num{
+    color: hsl(224, 30%, 27%);
+}
+.reactmemory{
+    flex-direction: row;
+    display: flex;
+    gap: 20%;
+}
+
+.memT{
+    color:  hsl(39, 100%, 56%);
+}
+
+.reactverbal{
+    flex-direction: row;
+    display: flex;
+    gap: 20%;
+}
+.verb{
+    color: hsl(166, 100%, 37%);
+    
+}
+
+.num{
+    color: hsl(224, 30%, 27%);
+}
+
+.reactvisual{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+}
+.see{
+    color:  hsl(234, 85%, 45%);
+}
+.num{
+    color: hsl(224, 30%, 27%)
+}
+@font-face {
+    font-family: Hank;
+    src: url("/assets/fonts/Hankengrotesk-Medium.ttf");
+}
+.but{
+    height: 40px;
+    border-radius: 25px;
+    display: flex;
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+    background-color:hsl(224, 30%, 27%);
+    color: white;
+    border: 3px solid #3c4043;
+    margin-top: 50px;
+    font-family: Hank;
+
+
+}
+
+.but:hover {
+    background-color: hsl(234, 85%, 45%);
+}
+
+.score-text{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+h2{
+    text-transform: capitalize;
+}
